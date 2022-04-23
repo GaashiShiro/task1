@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style> 
+            textarea {
+              width: 100%;
+              height: 240px;
+              padding: 12px 20px;
+              box-sizing: border-box;
+              border: 2px solid rgba(204, 204, 204, 0);
+              border-radius: 4px;
+              background-color: #f8f8f800;
+              font-size: 16px;
+              resize: none;
+            }
+            button {
+                background-color: #000000; /* Black */
+                border: none;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                color: white;
+                padding: 7px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 10px;
+            }
+            </style>
+
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <input class="search" type="text" placeholder="Search..." name="newName">
+
+
+        <textarea class="input" type="textarea"></textarea>
+        <button class="startbt">Start</button>
+
+        
+        <button class="clearbt" type="reset">Clear All</button><br> <!-- ONLY clears both text areas --> 
+        
+
+        <textarea class="return" readonly></textarea> <!--readonly or disable attribute-->
+        <button class="rabbits">Word</button> <!--Clears both areas and after, it creates 10 lines of text in the "input" textarea and randomly inserts the
+            text "Rabbit" into the lines  -->
+        <script src="task1.js" type="module"></script>
+    </body>
+</html>
