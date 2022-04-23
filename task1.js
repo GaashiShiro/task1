@@ -32,10 +32,6 @@ const main = () => {
 
       const searchWord = document.querySelector(".search");
 
-
-      
-
-      
       s.addEventListener("click", (e) => { //Starts program and saves textarea value
           //console.log("Clicked");
           const inputText = r1.value; //Transforms text from textarea into an array
@@ -96,8 +92,6 @@ const main = () => {
         r1.value=splitArray.join("\n");
       
         console.log(splitArray);
-      
-      
       })
       
           /*
